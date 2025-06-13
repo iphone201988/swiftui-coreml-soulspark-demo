@@ -13,7 +13,6 @@ SoulSpark is a journaling app built using **Swift**, **SwiftUI**, and **Core Dat
 * [Core ML Integration](#core-ml-integration)
 * [Optimizations](#optimizations)
 * [Trade-Offs](#trade-offs)
-* [Known Issues](#known-issues)
 * [Future Improvements](#future-improvements)
 * [Testing Notes](#testing-notes)
 * [Contribution & License](#contribution--license)
