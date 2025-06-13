@@ -155,14 +155,6 @@ entry.mood = prediction?.label ?? "unknown"
 
 ---
 
-## 🛡️ Known Issues
-
-* If multiple `JournalEntry` entities exist in `.xcdatamodeld`, Core Data may crash or warn.
-* Decryption will fail if the key is deleted from the Keychain.
-* External binary data might show as "External Reference" and isn't directly readable via logs.
-
----
-
 ## 📊 Future Improvements
 
 * Add iCloud sync with encrypted Core Data stores.
