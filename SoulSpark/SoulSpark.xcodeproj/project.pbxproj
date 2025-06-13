@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B29EF2F2DFAE7030088BCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B29EF282DFAE7030088BCED /* Assets.xcassets */; };
+		8B29EF302DFAE7030088BCED /* LoadInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF292DFAE7030088BCED /* LoadInitialView.swift */; };
+		8B29EF312DFAE7030088BCED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF2A2DFAE7030088BCED /* Persistence.swift */; };
+		8B29EF322DFAE7030088BCED /* SoulSpark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF2B2DFAE7030088BCED /* SoulSpark.xcdatamodeld */; };
+		8B29EF332DFAE7030088BCED /* SoulSparkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF2C2DFAE7030088BCED /* SoulSparkApp.swift */; };
+		8B29EF362DFAE7530088BCED /* SoulSparkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF342DFAE7530088BCED /* SoulSparkTests.swift */; };
+		8B29EF3A2DFAE7550088BCED /* SoulSparkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF372DFAE7550088BCED /* SoulSparkUITests.swift */; };
+		8B29EF3B2DFAE7550088BCED /* SoulSparkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF382DFAE7550088BCED /* SoulSparkUITestsLaunchTests.swift */; };
+		8B29EF402DFAE7CA0088BCED /* EncryptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF3F2DFAE7C80088BCED /* EncryptionHelper.swift */; };
+		8B29EF422DFAE8020088BCED /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF412DFAE8010088BCED /* JournalViewModel.swift */; };
+		8B29EF462DFAE82D0088BCED /* MoodPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF452DFAE82D0088BCED /* MoodPulseView.swift */; };
+		8B29EF482DFAE83E0088BCED /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF472DFAE83E0088BCED /* HapticManager.swift */; };
+		8B29EF4C2DFAEB810088BCED /* JournalSaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF4B2DFAEB800088BCED /* JournalSaveTests.swift */; };
+		8B29EF9B2DFAF1EF0088BCED /* Keyname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF882DFAF1EF0088BCED /* Keyname.swift */; };
+		8B29EF9C2DFAF1EF0088BCED /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF842DFAF1EF0088BCED /* ToastView.swift */; };
+		8B29EFA22DFAF1EF0088BCED /* StoredKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF892DFAF1EF0088BCED /* StoredKeys.swift */; };
+		8B29EFA32DFAF1EF0088BCED /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF732DFAF1EF0088BCED /* ViewExt.swift */; };
+		8B29EFA72DFAF1EF0088BCED /* ToastViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF852DFAF1EF0088BCED /* ToastViewModifier.swift */; };
+		8B29EFB02DFAF1EF0088BCED /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF5A2DFAF1EF0088BCED /* Methods.swift */; };
+		8B29EFB32DFAF1EF0088BCED /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF512DFAF1EF0088BCED /* Enums.swift */; };
+		8B29EFB82DFAF1EF0088BCED /* ToastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF832DFAF1EF0088BCED /* ToastModel.swift */; };
+		8B29EFBF2DFAF1EF0088BCED /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF872DFAF1EF0088BCED /* Extension.swift */; };
+		8B29EFC82DFAF1EF0088BCED /* ToastEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EF822DFAF1EF0088BCED /* ToastEnums.swift */; };
+		8B29EFD82DFAF2FE0088BCED /* AppVault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B29EFD32DFAF2FE0088BCED /* AppVault.plist */; };
+		8B29EFDA2DFAF2FE0088BCED /* VaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFD62DFAF2FE0088BCED /* VaultInfo.swift */; };
+		8B29EFDD2DFAF7590088BCED /* AddNewJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFDC2DFAF7580088BCED /* AddNewJournalView.swift */; };
+		8B29EFE22DFB01410088BCED /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFE12DFB01400088BCED /* JournalListView.swift */; };
+		8B29EFE42DFB01B10088BCED /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFE32DFB01AA0088BCED /* DateUtil.swift */; };
+		8B29EFE62DFB09930088BCED /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFE52DFB09930088BCED /* ViewModifiers.swift */; };
+		8B29EFEA2DFB1DA40088BCED /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFE92DFB1DA30088BCED /* CustomTextEditor.swift */; };
+		8B29EFEC2DFC01770088BCED /* KeyboardEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFEB2DFC01770088BCED /* KeyboardEventListener.swift */; };
+		8B29EFF42DFC4D6A0088BCED /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFF32DFC4D690088BCED /* KeychainHelper.swift */; };
+		8B29EFF62DFC4F6E0088BCED /* JournalMoodClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B29EFF52DFC4F6E0088BCED /* JournalMoodClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B29EF0C2DFAE6FB0088BCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B29EEF12DFAE6FA0088BCED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B29EEF82DFAE6FA0088BCED;
+			remoteInfo = SoulSpark;
+		};
+		8B29EF162DFAE6FB0088BCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B29EEF12DFAE6FA0088BCED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B29EEF82DFAE6FA0088BCED;
+			remoteInfo = SoulSpark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B29EEF92DFAE6FA0088BCED /* SoulSpark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulSpark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B29EF0B2DFAE6FB0088BCED /* SoulSparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B29EF152DFAE6FB0088BCED /* SoulSparkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulSparkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B29EF282DFAE7030088BCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B29EF292DFAE7030088BCED /* LoadInitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadInitialView.swift; sourceTree = "<group>"; };
+		8B29EF2A2DFAE7030088BCED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8B29EF2C2DFAE7030088BCED /* SoulSparkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulSparkApp.swift; sourceTree = "<group>"; };
+		8B29EF2E2DFAE7030088BCED /* SoulSpark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoulSpark.xcdatamodel; sourceTree = "<group>"; };
+		8B29EF342DFAE7530088BCED /* SoulSparkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulSparkTests.swift; sourceTree = "<group>"; };
+		8B29EF372DFAE7550088BCED /* SoulSparkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulSparkUITests.swift; sourceTree = "<group>"; };
+		8B29EF382DFAE7550088BCED /* SoulSparkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulSparkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B29EF3F2DFAE7C80088BCED /* EncryptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionHelper.swift; sourceTree = "<group>"; };
+		8B29EF412DFAE8010088BCED /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		8B29EF452DFAE82D0088BCED /* MoodPulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPulseView.swift; sourceTree = "<group>"; };
+		8B29EF472DFAE83E0088BCED /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		8B29EF4B2DFAEB800088BCED /* JournalSaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSaveTests.swift; sourceTree = "<group>"; };
+		8B29EF512DFAF1EF0088BCED /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8B29EF5A2DFAF1EF0088BCED /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		8B29EF732DFAF1EF0088BCED /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		8B29EF822DFAF1EF0088BCED /* ToastEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastEnums.swift; sourceTree = "<group>"; };
+		8B29EF832DFAF1EF0088BCED /* ToastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModel.swift; sourceTree = "<group>"; };
+		8B29EF842DFAF1EF0088BCED /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		8B29EF852DFAF1EF0088BCED /* ToastViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewModifier.swift; sourceTree = "<group>"; };
+		8B29EF872DFAF1EF0088BCED /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8B29EF882DFAF1EF0088BCED /* Keyname.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyname.swift; sourceTree = "<group>"; };
+		8B29EF892DFAF1EF0088BCED /* StoredKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredKeys.swift; sourceTree = "<group>"; };
+		8B29EFD32DFAF2FE0088BCED /* AppVault.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppVault.plist; sourceTree = "<group>"; };
+		8B29EFD62DFAF2FE0088BCED /* VaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInfo.swift; sourceTree = "<group>"; };
+		8B29EFDC2DFAF7580088BCED /* AddNewJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewJournalView.swift; sourceTree = "<group>"; };
+		8B29EFE12DFB01400088BCED /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		8B29EFE32DFB01AA0088BCED /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		8B29EFE52DFB09930088BCED /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		8B29EFE92DFB1DA30088BCED /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		8B29EFEB2DFC01770088BCED /* KeyboardEventListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventListener.swift; sourceTree = "<group>"; };
+		8B29EFF32DFC4D690088BCED /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		8B29EFF52DFC4F6E0088BCED /* JournalMoodClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = JournalMoodClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B29EEF62DFAE6FA0088BCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF082DFAE6FB0088BCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF122DFAE6FB0088BCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B29EEF02DFAE6FA0088BCED = {
+			isa = PBXGroup;
+			children = (
+				8B29EEFA2DFAE6FA0088BCED /* Products */,
+				8B29EF2D2DFAE7030088BCED /* SoulSpark */,
+				8B29EF352DFAE7530088BCED /* SoulSparkTests */,
+				8B29EF392DFAE7550088BCED /* SoulSparkUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		8B29EEFA2DFAE6FA0088BCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EEF92DFAE6FA0088BCED /* SoulSpark.app */,
+				8B29EF0B2DFAE6FB0088BCED /* SoulSparkTests.xctest */,
+				8B29EF152DFAE6FB0088BCED /* SoulSparkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B29EF2D2DFAE7030088BCED /* SoulSpark */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF292DFAE7030088BCED /* LoadInitialView.swift */,
+				8B29EF2A2DFAE7030088BCED /* Persistence.swift */,
+				8B29EF2C2DFAE7030088BCED /* SoulSparkApp.swift */,
+				8B29EFD72DFAF2FE0088BCED /* Application */,
+				8B29EFDF2DFAF8DA0088BCED /* Models */,
+				8B29EF4D2DFAF1BF0088BCED /* Resources */,
+				8B29EF992DFAF1EF0088BCED /* SharedComponents */,
+				8B29EF2B2DFAE7030088BCED /* SoulSpark.xcdatamodeld */,
+				8B29EFDE2DFAF8D30088BCED /* ViewModels */,
+				8B29EFE02DFAF8E00088BCED /* Views */,
+			);
+			path = SoulSpark;
+			sourceTree = "<group>";
+		};
+		8B29EF352DFAE7530088BCED /* SoulSparkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF4B2DFAEB800088BCED /* JournalSaveTests.swift */,
+				8B29EF342DFAE7530088BCED /* SoulSparkTests.swift */,
+			);
+			path = SoulSparkTests;
+			sourceTree = "<group>";
+		};
+		8B29EF392DFAE7550088BCED /* SoulSparkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF372DFAE7550088BCED /* SoulSparkUITests.swift */,
+				8B29EF382DFAE7550088BCED /* SoulSparkUITestsLaunchTests.swift */,
+			);
+			path = SoulSparkUITests;
+			sourceTree = "<group>";
+		};
+		8B29EF4D2DFAF1BF0088BCED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EFF52DFC4F6E0088BCED /* JournalMoodClassifier.mlmodel */,
+				8B29EF282DFAE7030088BCED /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B29EF742DFAF1EF0088BCED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF732DFAF1EF0088BCED /* ViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B29EF862DFAF1EF0088BCED /* ToastManager */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF822DFAF1EF0088BCED /* ToastEnums.swift */,
+				8B29EF832DFAF1EF0088BCED /* ToastModel.swift */,
+				8B29EF842DFAF1EF0088BCED /* ToastView.swift */,
+				8B29EF852DFAF1EF0088BCED /* ToastViewModifier.swift */,
+			);
+			path = ToastManager;
+			sourceTree = "<group>";
+		};
+		8B29EF8A2DFAF1EF0088BCED /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF872DFAF1EF0088BCED /* Extension.swift */,
+				8B29EF882DFAF1EF0088BCED /* Keyname.swift */,
+				8B29EF892DFAF1EF0088BCED /* StoredKeys.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		8B29EF992DFAF1EF0088BCED /* SharedComponents */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EFE92DFB1DA30088BCED /* CustomTextEditor.swift */,
+				8B29EFE32DFB01AA0088BCED /* DateUtil.swift */,
+				8B29EF3F2DFAE7C80088BCED /* EncryptionHelper.swift */,
+				8B29EF512DFAF1EF0088BCED /* Enums.swift */,
+				8B29EF472DFAE83E0088BCED /* HapticManager.swift */,
+				8B29EFEB2DFC01770088BCED /* KeyboardEventListener.swift */,
+				8B29EFF32DFC4D690088BCED /* KeychainHelper.swift */,
+				8B29EF5A2DFAF1EF0088BCED /* Methods.swift */,
+				8B29EFE52DFB09930088BCED /* ViewModifiers.swift */,
+				8B29EF742DFAF1EF0088BCED /* Extensions */,
+				8B29EF862DFAF1EF0088BCED /* ToastManager */,
+				8B29EF8A2DFAF1EF0088BCED /* UserDefaults */,
+			);
+			path = SharedComponents;
+			sourceTree = "<group>";
+		};
+		8B29EFD72DFAF2FE0088BCED /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EFD32DFAF2FE0088BCED /* AppVault.plist */,
+				8B29EFD62DFAF2FE0088BCED /* VaultInfo.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B29EFDE2DFAF8D30088BCED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EF412DFAE8010088BCED /* JournalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8B29EFDF2DFAF8DA0088BCED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B29EFE02DFAF8E00088BCED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B29EFDC2DFAF7580088BCED /* AddNewJournalView.swift */,
+				8B29EFE12DFB01400088BCED /* JournalListView.swift */,
+				8B29EF452DFAE82D0088BCED /* MoodPulseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B29EEF82DFAE6FA0088BCED /* SoulSpark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B29EF1F2DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSpark" */;
+			buildPhases = (
+				8B29EEF52DFAE6FA0088BCED /* Sources */,
+				8B29EEF62DFAE6FA0088BCED /* Frameworks */,
+				8B29EEF72DFAE6FA0088BCED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoulSpark;
+			packageProductDependencies = (
+			);
+			productName = SoulSpark;
+			productReference = 8B29EEF92DFAE6FA0088BCED /* SoulSpark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B29EF0A2DFAE6FB0088BCED /* SoulSparkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B29EF222DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSparkTests" */;
+			buildPhases = (
+				8B29EF072DFAE6FB0088BCED /* Sources */,
+				8B29EF082DFAE6FB0088BCED /* Frameworks */,
+				8B29EF092DFAE6FB0088BCED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B29EF0D2DFAE6FB0088BCED /* PBXTargetDependency */,
+			);
+			name = SoulSparkTests;
+			packageProductDependencies = (
+			);
+			productName = SoulSparkTests;
+			productReference = 8B29EF0B2DFAE6FB0088BCED /* SoulSparkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B29EF142DFAE6FB0088BCED /* SoulSparkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B29EF252DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSparkUITests" */;
+			buildPhases = (
+				8B29EF112DFAE6FB0088BCED /* Sources */,
+				8B29EF122DFAE6FB0088BCED /* Frameworks */,
+				8B29EF132DFAE6FB0088BCED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B29EF172DFAE6FB0088BCED /* PBXTargetDependency */,
+			);
+			name = SoulSparkUITests;
+			packageProductDependencies = (
+			);
+			productName = SoulSparkUITests;
+			productReference = 8B29EF152DFAE6FB0088BCED /* SoulSparkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B29EEF12DFAE6FA0088BCED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8B29EEF82DFAE6FA0088BCED = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8B29EF0A2DFAE6FB0088BCED = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8B29EEF82DFAE6FA0088BCED;
+					};
+					8B29EF142DFAE6FB0088BCED = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8B29EEF82DFAE6FA0088BCED;
+					};
+				};
+			};
+			buildConfigurationList = 8B29EEF42DFAE6FA0088BCED /* Build configuration list for PBXProject "SoulSpark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B29EEF02DFAE6FA0088BCED;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8B29EEFA2DFAE6FA0088BCED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B29EEF82DFAE6FA0088BCED /* SoulSpark */,
+				8B29EF0A2DFAE6FB0088BCED /* SoulSparkTests */,
+				8B29EF142DFAE6FB0088BCED /* SoulSparkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B29EEF72DFAE6FA0088BCED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29EF2F2DFAE7030088BCED /* Assets.xcassets in Resources */,
+				8B29EFD82DFAF2FE0088BCED /* AppVault.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF092DFAE6FB0088BCED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF132DFAE6FB0088BCED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B29EEF52DFAE6FA0088BCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29EF422DFAE8020088BCED /* JournalViewModel.swift in Sources */,
+				8B29EFF42DFC4D6A0088BCED /* KeychainHelper.swift in Sources */,
+				8B29EF302DFAE7030088BCED /* LoadInitialView.swift in Sources */,
+				8B29EF402DFAE7CA0088BCED /* EncryptionHelper.swift in Sources */,
+				8B29EF312DFAE7030088BCED /* Persistence.swift in Sources */,
+				8B29EFE42DFB01B10088BCED /* DateUtil.swift in Sources */,
+				8B29EFF62DFC4F6E0088BCED /* JournalMoodClassifier.mlmodel in Sources */,
+				8B29EF482DFAE83E0088BCED /* HapticManager.swift in Sources */,
+				8B29EF322DFAE7030088BCED /* SoulSpark.xcdatamodeld in Sources */,
+				8B29EF462DFAE82D0088BCED /* MoodPulseView.swift in Sources */,
+				8B29EF332DFAE7030088BCED /* SoulSparkApp.swift in Sources */,
+				8B29EF9B2DFAF1EF0088BCED /* Keyname.swift in Sources */,
+				8B29EF9C2DFAF1EF0088BCED /* ToastView.swift in Sources */,
+				8B29EFA22DFAF1EF0088BCED /* StoredKeys.swift in Sources */,
+				8B29EFA32DFAF1EF0088BCED /* ViewExt.swift in Sources */,
+				8B29EFEA2DFB1DA40088BCED /* CustomTextEditor.swift in Sources */,
+				8B29EFEC2DFC01770088BCED /* KeyboardEventListener.swift in Sources */,
+				8B29EFA72DFAF1EF0088BCED /* ToastViewModifier.swift in Sources */,
+				8B29EFB02DFAF1EF0088BCED /* Methods.swift in Sources */,
+				8B29EFE62DFB09930088BCED /* ViewModifiers.swift in Sources */,
+				8B29EFB32DFAF1EF0088BCED /* Enums.swift in Sources */,
+				8B29EFE22DFB01410088BCED /* JournalListView.swift in Sources */,
+				8B29EFB82DFAF1EF0088BCED /* ToastModel.swift in Sources */,
+				8B29EFBF2DFAF1EF0088BCED /* Extension.swift in Sources */,
+				8B29EFDA2DFAF2FE0088BCED /* VaultInfo.swift in Sources */,
+				8B29EFDD2DFAF7590088BCED /* AddNewJournalView.swift in Sources */,
+				8B29EFC82DFAF1EF0088BCED /* ToastEnums.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF072DFAE6FB0088BCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29EF4C2DFAEB810088BCED /* JournalSaveTests.swift in Sources */,
+				8B29EF362DFAE7530088BCED /* SoulSparkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B29EF112DFAE6FB0088BCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29EF3A2DFAE7550088BCED /* SoulSparkUITests.swift in Sources */,
+				8B29EF3B2DFAE7550088BCED /* SoulSparkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B29EF0D2DFAE6FB0088BCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B29EEF82DFAE6FA0088BCED /* SoulSpark */;
+			targetProxy = 8B29EF0C2DFAE6FB0088BCED /* PBXContainerItemProxy */;
+		};
+		8B29EF172DFAE6FB0088BCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B29EEF82DFAE6FA0088BCED /* SoulSpark */;
+			targetProxy = 8B29EF162DFAE6FB0088BCED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B29EF1D2DFAE6FB0088BCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B29EF1E2DFAE6FB0088BCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B29EF202DFAE6FB0088BCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7923B3RA3R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSpark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B29EF212DFAE6FB0088BCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7923B3RA3R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSpark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8B29EF232DFAE6FB0088BCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSparkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulSpark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoulSpark";
+			};
+			name = Debug;
+		};
+		8B29EF242DFAE6FB0088BCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSparkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulSpark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoulSpark";
+			};
+			name = Release;
+		};
+		8B29EF262DFAE6FB0088BCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSparkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoulSpark;
+			};
+			name = Debug;
+		};
+		8B29EF272DFAE6FB0088BCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techwinlabs.SoulSparkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoulSpark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B29EEF42DFAE6FA0088BCED /* Build configuration list for PBXProject "SoulSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B29EF1D2DFAE6FB0088BCED /* Debug */,
+				8B29EF1E2DFAE6FB0088BCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B29EF1F2DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSpark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B29EF202DFAE6FB0088BCED /* Debug */,
+				8B29EF212DFAE6FB0088BCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B29EF222DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSparkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B29EF232DFAE6FB0088BCED /* Debug */,
+				8B29EF242DFAE6FB0088BCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B29EF252DFAE6FB0088BCED /* Build configuration list for PBXNativeTarget "SoulSparkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B29EF262DFAE6FB0088BCED /* Debug */,
+				8B29EF272DFAE6FB0088BCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B29EF2B2DFAE7030088BCED /* SoulSpark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B29EF2E2DFAE7030088BCED /* SoulSpark.xcdatamodel */,
+			);
+			currentVersion = 8B29EF2E2DFAE7030088BCED /* SoulSpark.xcdatamodel */;
+			path = SoulSpark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B29EEF12DFAE6FA0088BCED /* Project object */;
+}

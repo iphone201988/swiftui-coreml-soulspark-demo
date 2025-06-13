@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App_Name</key>
+	<string>SoulSpark</string>
+	<key>App_Identifier</key>
+	<string></string>
+	<key>App_Store_ID</key>
+	<string></string>
+	<key>App_Store_Profile</key>
+	<string></string>
+	<key>AdHoc_Profile</key>
+	<string></string>
+	<key>Google_Services_Api_Key</key>
+	<string></string>
+	<key>isConsoleLogsEnable</key>
+	<true/>
+	<key>App_Environment</key>
+	<dict>
+		<key>Local</key>
+		<false/>
+		<key>QATesting</key>
+		<false/>
+		<key>BetaTesting</key>
+		<false/>
+		<key>Development</key>
+		<false/>
+		<key>Production</key>
+		<false/>
+	</dict>
+	<key>Local_Base_URL</key>
+	<string></string>
+	<key>QATesting_Base_URL</key>
+	<string></string>
+	<key>BetaTesting_Base_URL</key>
+	<string></string>
+	<key>Development_Base_URL</key>
+	<string></string>
+	<key>Production_Base_URL</key>
+	<string></string>
+	<key>Media_Load_Base_URL</key>
+	<string></string>
+	<key>Local_X_API_Key</key>
+	<string></string>
+	<key>QATesting_X_API_Key</key>
+	<string></string>
+	<key>BetaTesting_X_API_Key</key>
+	<string></string>
+	<key>Development_X_API_Key</key>
+	<string></string>
+	<key>Production_X_API_Key</key>
+	<string></string>
+</dict>
+</plist>
